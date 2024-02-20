@@ -4,6 +4,8 @@ import Offers from "../_components/Offers";
 import Whatch from "../_components/Whatch";
 import Exlusive from "../_components/Exlusive";
 import Devices from "../_components/Devices";
+import Questions from "../_components/Questions";
+import Footer from "../_components/Footer";
 
 const Home = () => {
 	return (
@@ -11,8 +13,10 @@ const Home = () => {
 			<Landing />
 			<Offers />
 			<Whatch />
-      <Exlusive />
-      <Devices/>
+			<Exlusive />
+			<Devices />
+			<Questions />
+			<Footer />
 		</>
 	);
 };
